@@ -44,8 +44,8 @@ class FlutterContactsPlugin : FlutterPlugin, MethodCallHandler, EventChannel.Str
     // --- FlutterPlugin implementation ---
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/QuisApp/flutter_contacts")
-        val eventChannel = EventChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/QuisApp/flutter_contacts/events")
+        val channel = MethodChannel(flutterPluginBinding.binaryMessenger, "github.com/QuisApp/flutter_contacts")
+        val eventChannel = EventChannel(flutterPluginBinding.binaryMessenger, "github.com/QuisApp/flutter_contacts/events")
         channel.setMethodCallHandler(FlutterContactsPlugin())
         eventChannel.setStreamHandler(FlutterContactsPlugin())
         context = flutterPluginBinding.applicationContext
