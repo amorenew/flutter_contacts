@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/event.dart';
+import 'package:flutter_contacts_plus/properties/event.dart';
 
 class EventForm extends StatefulWidget {
   final Event event;

@@ -1,4 +1,4 @@
-package co.quis.flutter_contacts.properties
+package co.quis.flutter_contacts_plus.properties
 
 data class Account(
     var rawId: String,

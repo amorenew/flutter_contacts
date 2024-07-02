@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_contacts",
+            "name": "flutter_contacts_plus",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "flutter_contacts (profile mode)",
+            "name": "flutter_contacts_plus (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "flutter_contacts (release mode)",
+            "name": "flutter_contacts_plus (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

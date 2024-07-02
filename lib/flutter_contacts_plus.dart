@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_contacts/config.dart';
-import 'package:flutter_contacts/contact.dart';
-import 'package:flutter_contacts/diacritics.dart';
-import 'package:flutter_contacts/properties/group.dart';
+import 'package:flutter_contacts_plus/config.dart';
+import 'package:flutter_contacts_plus/contact.dart';
+import 'package:flutter_contacts_plus/diacritics.dart';
+import 'package:flutter_contacts_plus/properties/group.dart';
 
 export 'contact.dart';
 export 'properties/account.dart';
@@ -21,9 +21,10 @@ export 'properties/social_media.dart';
 export 'properties/website.dart';
 
 class FlutterContacts {
-  static const _channel = MethodChannel('github.com/QuisApp/flutter_contacts');
+  static const _channel =
+      MethodChannel('github.com/amorenew/flutter_contacts_plus');
   static const _eventChannel =
-      EventChannel('github.com/QuisApp/flutter_contacts/events');
+      EventChannel('github.com/amorenew/flutter_contacts_plus/events');
   // The linter is confused by this. It's the caller's responsibility to call
   // removeListener when appropriate.
   // ignore: cancel_subscriptions

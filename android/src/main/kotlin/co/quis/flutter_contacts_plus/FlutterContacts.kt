@@ -1,4 +1,4 @@
-package co.quis.flutter_contacts
+package co.quis.flutter_contacts_plus
 
 import android.app.Activity
 import android.content.ContentProviderOperation
@@ -30,17 +30,17 @@ import android.provider.ContactsContract.RawContacts
 import java.io.FileNotFoundException
 import java.io.InputStream
 import java.io.OutputStream
-import co.quis.flutter_contacts.properties.Account as PAccount
-import co.quis.flutter_contacts.properties.Address as PAddress
-import co.quis.flutter_contacts.properties.Email as PEmail
-import co.quis.flutter_contacts.properties.Event as PEvent
-import co.quis.flutter_contacts.properties.Group as PGroup
-import co.quis.flutter_contacts.properties.Name as PName
-import co.quis.flutter_contacts.properties.Note as PNote
-import co.quis.flutter_contacts.properties.Organization as POrganization
-import co.quis.flutter_contacts.properties.Phone as PPhone
-import co.quis.flutter_contacts.properties.SocialMedia as PSocialMedia
-import co.quis.flutter_contacts.properties.Website as PWebsite
+import co.quis.flutter_contacts_plus.properties.Account as PAccount
+import co.quis.flutter_contacts_plus.properties.Address as PAddress
+import co.quis.flutter_contacts_plus.properties.Email as PEmail
+import co.quis.flutter_contacts_plus.properties.Event as PEvent
+import co.quis.flutter_contacts_plus.properties.Group as PGroup
+import co.quis.flutter_contacts_plus.properties.Name as PName
+import co.quis.flutter_contacts_plus.properties.Note as PNote
+import co.quis.flutter_contacts_plus.properties.Organization as POrganization
+import co.quis.flutter_contacts_plus.properties.Phone as PPhone
+import co.quis.flutter_contacts_plus.properties.SocialMedia as PSocialMedia
+import co.quis.flutter_contacts_plus.properties.Website as PWebsite
 
 class FlutterContacts {
     companion object {

@@ -1,5 +1,5 @@
-import 'package:flutter_contacts/config.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/config.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 
 /// Labeled event / birthday.
 ///

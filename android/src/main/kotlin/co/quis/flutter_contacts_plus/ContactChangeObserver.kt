@@ -1,4 +1,4 @@
-package co.quis.flutter_contacts
+package co.quis.flutter_contacts_plus
 
 import android.database.ContentObserver
 import android.os.Handler

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/organization.dart';
+import 'package:flutter_contacts_plus/properties/organization.dart';
 
 class OrganizationForm extends StatefulWidget {
   final Organization organization;

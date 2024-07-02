@@ -1,7 +1,7 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
-import 'package:flutter_contacts_example/util/avatar.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
+import 'package:flutter_contacts_plus_example/util/avatar.dart';
 import 'package:pretty_json/pretty_json.dart';
 
 class ContactPage extends StatefulWidget {

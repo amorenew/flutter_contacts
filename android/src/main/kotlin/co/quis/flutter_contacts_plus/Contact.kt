@@ -1,16 +1,16 @@
-package co.quis.flutter_contacts
+package co.quis.flutter_contacts_plus
 
-import co.quis.flutter_contacts.properties.Account
-import co.quis.flutter_contacts.properties.Address
-import co.quis.flutter_contacts.properties.Email
-import co.quis.flutter_contacts.properties.Event
-import co.quis.flutter_contacts.properties.Group
-import co.quis.flutter_contacts.properties.Name
-import co.quis.flutter_contacts.properties.Note
-import co.quis.flutter_contacts.properties.Organization
-import co.quis.flutter_contacts.properties.Phone
-import co.quis.flutter_contacts.properties.SocialMedia
-import co.quis.flutter_contacts.properties.Website
+import co.quis.flutter_contacts_plus.properties.Account
+import co.quis.flutter_contacts_plus.properties.Address
+import co.quis.flutter_contacts_plus.properties.Email
+import co.quis.flutter_contacts_plus.properties.Event
+import co.quis.flutter_contacts_plus.properties.Group
+import co.quis.flutter_contacts_plus.properties.Name
+import co.quis.flutter_contacts_plus.properties.Note
+import co.quis.flutter_contacts_plus.properties.Organization
+import co.quis.flutter_contacts_plus.properties.Phone
+import co.quis.flutter_contacts_plus.properties.SocialMedia
+import co.quis.flutter_contacts_plus.properties.Website
 
 data class Contact(
     var id: String,

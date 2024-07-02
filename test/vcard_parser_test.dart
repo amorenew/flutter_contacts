@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

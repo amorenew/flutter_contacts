@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:flutter_contacts/contact.dart';
-import 'package:flutter_contacts/properties/address.dart';
-import 'package:flutter_contacts/properties/email.dart';
-import 'package:flutter_contacts/properties/event.dart';
-import 'package:flutter_contacts/properties/note.dart';
-import 'package:flutter_contacts/properties/organization.dart';
-import 'package:flutter_contacts/properties/phone.dart';
-import 'package:flutter_contacts/properties/social_media.dart';
-import 'package:flutter_contacts/properties/website.dart';
+import 'package:flutter_contacts_plus/contact.dart';
+import 'package:flutter_contacts_plus/properties/address.dart';
+import 'package:flutter_contacts_plus/properties/email.dart';
+import 'package:flutter_contacts_plus/properties/event.dart';
+import 'package:flutter_contacts_plus/properties/note.dart';
+import 'package:flutter_contacts_plus/properties/organization.dart';
+import 'package:flutter_contacts_plus/properties/phone.dart';
+import 'package:flutter_contacts_plus/properties/social_media.dart';
+import 'package:flutter_contacts_plus/properties/website.dart';
 
 final _dateRegexp = RegExp(r'^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|30|31)$');
 final _noYearDateRegexp =

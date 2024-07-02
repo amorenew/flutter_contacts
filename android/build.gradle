@@ -1,4 +1,4 @@
-group 'co.quis.flutter_contacts'
+group 'co.quis.flutter_contacts_plus'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -29,7 +29,7 @@ android {
     compileSdkVersion 34
 
     if (!project.hasProperty("namespace")) {
-        namespace 'co.quis.flutter_contacts'
+        namespace 'co.quis.flutter_contacts_plus'
     }
 
     compileOptions {

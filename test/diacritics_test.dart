@@ -1,4 +1,4 @@
-import 'package:flutter_contacts/diacritics.dart';
+import 'package:flutter_contacts_plus/diacritics.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

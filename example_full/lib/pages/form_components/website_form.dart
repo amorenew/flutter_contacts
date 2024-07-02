@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/website.dart';
+import 'package:flutter_contacts_plus/properties/website.dart';
 
 class WebsiteForm extends StatefulWidget {
   final Website website;

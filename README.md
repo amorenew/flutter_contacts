@@ -1,19 +1,19 @@
-# flutter_contacts
+# flutter_contacts_plus
 
-[![pub](https://img.shields.io/pub/v/flutter_contacts?label=version)](https://pub.dev/packages/flutter_contacts)
-[![pub points](https://img.shields.io/pub/points/flutter_contacts)](https://pub.dev/packages/flutter_contacts/score)
-[![popularity](https://img.shields.io/pub/popularity/flutter_contacts)](https://pub.dev/packages/flutter_contacts/score)
-[![likes](https://img.shields.io/pub/likes/flutter_contacts)](https://pub.dev/packages/flutter_contacts/score)
+[![pub](https://img.shields.io/pub/v/flutter_contacts_plus?label=version)](https://pub.dev/packages/flutter_contacts_plus)
+[![pub points](https://img.shields.io/pub/points/flutter_contacts_plus)](https://pub.dev/packages/flutter_contacts_plus/score)
+[![popularity](https://img.shields.io/pub/popularity/flutter_contacts_plus)](https://pub.dev/packages/flutter_contacts_plus/score)
+[![likes](https://img.shields.io/pub/likes/flutter_contacts_plus)](https://pub.dev/packages/flutter_contacts_plus/score)
 
 Flutter plugin to read, create, update, delete and observe native contacts on Android and iOS, with group support, vCard support, and contact permission handling.
 
-For a minimalistic example, take a look at [`example/`](https://github.com/QuisApp/flutter_contacts/blob/master/example). You can write a full-fledged contacts app with it – see [`example_full/`](https://github.com/QuisApp/flutter_contacts/blob/master/example_full) to see how.
+For a minimalistic example, take a look at [`example/`](https://github.com/QuisApp/flutter_contacts_plus/blob/master/example). You can write a full-fledged contacts app with it – see [`example_full/`](https://github.com/QuisApp/flutter_contacts_plus/blob/master/example_full) to see how.
 
 ## Quick start
 
 ```dart
 // See installation notes below regarding AndroidManifest.xml and Info.plist
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 
 // Request contact permission
 if (await FlutterContacts.requestPermission()) {

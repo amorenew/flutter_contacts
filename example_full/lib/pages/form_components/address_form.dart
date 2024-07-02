@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/address.dart';
+import 'package:flutter_contacts_plus/properties/address.dart';
 
 class AddressForm extends StatefulWidget {
   final Address address;

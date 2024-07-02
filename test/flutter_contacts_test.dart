@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -8,7 +8,7 @@ void main() {
   test('sorting', () async {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
-      const MethodChannel('github.com/QuisApp/flutter_contacts'),
+      const MethodChannel('github.com/amorenew/flutter_contacts_plus'),
       (MethodCall methodCall) async {
         if (methodCall.method == 'select') {
           return [
@@ -33,7 +33,7 @@ void main() {
   test('get contact', () async {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
-      const MethodChannel('github.com/QuisApp/flutter_contacts'),
+      const MethodChannel('github.com/amorenew/flutter_contacts_plus'),
       (MethodCall methodCall) async {
         if (methodCall.method == 'select') {
           return [_complexContact];

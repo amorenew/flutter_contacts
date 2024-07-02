@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 
 void main() => runApp(FlutterContactsExample());
 
@@ -30,7 +30,7 @@ class _FlutterContactsExampleState extends State<FlutterContactsExample> {
   @override
   Widget build(BuildContext context) => MaterialApp(
       home: Scaffold(
-          appBar: AppBar(title: Text('flutter_contacts_example')),
+          appBar: AppBar(title: Text('flutter_contacts_plus_example')),
           body: _body()));
 
   Widget _body() {

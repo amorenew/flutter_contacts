@@ -1,4 +1,4 @@
-package co.quis.flutter_contacts
+package co.quis.flutter_contacts_plus
 
 import android.Manifest
 import android.app.Activity
@@ -44,8 +44,8 @@ class FlutterContactsPlugin : FlutterPlugin, MethodCallHandler, EventChannel.Str
     // --- FlutterPlugin implementation ---
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/QuisApp/flutter_contacts")
-        val eventChannel = EventChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/QuisApp/flutter_contacts/events")
+        val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/amorenew/flutter_contacts_plus")
+        val eventChannel = EventChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "github.com/amorenew/flutter_contacts_plus/events")
         channel.setMethodCallHandler(FlutterContactsPlugin())
         eventChannel.setStreamHandler(FlutterContactsPlugin())
         context = flutterPluginBinding.applicationContext

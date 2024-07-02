@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/email.dart';
+import 'package:flutter_contacts_plus/properties/email.dart';
 
 class EmailForm extends StatefulWidget {
   final Email email;

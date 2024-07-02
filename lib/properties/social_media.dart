@@ -1,4 +1,4 @@
-import 'package:flutter_contacts/vcard.dart';
+import 'package:flutter_contacts_plus/vcard.dart';
 
 /// Social media / instant messaging profile.
 ///

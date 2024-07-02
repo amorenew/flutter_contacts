@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:after_layout/after_layout.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts_example/util/avatar.dart';
+import 'package:flutter_contacts_plus_example/util/avatar.dart';
 
 class ContactListPage extends StatefulWidget {
   @override
@@ -68,7 +68,7 @@ class _ContactListPageState extends State<ContactListPage>
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: Text('flutter_contacts_example'),
+          title: Text('flutter_contacts_plus_example'),
           actions: <Widget>[
             PopupMenuButton<String>(
               onSelected: _handleOverflowSelected,

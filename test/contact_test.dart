@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_contacts/flutter_contacts.dart';
+import 'package:flutter_contacts_plus/flutter_contacts_plus.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +15,7 @@ void main() {
   test('add phone numbers', () async {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
-      const MethodChannel('github.com/QuisApp/flutter_contacts'),
+      const MethodChannel('github.com/amorenew/flutter_contacts_plus'),
       (MethodCall methodCall) async {
         if (methodCall.method == 'insert') {
           final c = methodCall.arguments[0];

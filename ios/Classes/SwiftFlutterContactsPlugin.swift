@@ -425,11 +425,11 @@ public class SwiftFlutterContactsPlugin: NSObject, FlutterPlugin, FlutterStreamH
 
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(
-            name: "github.com/QuisApp/flutter_contacts",
+            name: "github.com/amorenew/flutter_contacts_plus",
             binaryMessenger: registrar.messenger()
         )
         let eventChannel = FlutterEventChannel(
-            name: "github.com/QuisApp/flutter_contacts/events",
+            name: "github.com/amorenew/flutter_contacts_plus/events",
             binaryMessenger: registrar.messenger()
         )
         let rootViewController = UIApplication.shared.delegate!.window!!.rootViewController!

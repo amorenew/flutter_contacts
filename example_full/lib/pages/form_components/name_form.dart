@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/name.dart';
+import 'package:flutter_contacts_plus/properties/name.dart';
 
 class NameForm extends StatefulWidget {
   final Name name;

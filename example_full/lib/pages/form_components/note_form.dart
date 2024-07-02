@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/note.dart';
+import 'package:flutter_contacts_plus/properties/note.dart';
 
 class NoteForm extends StatefulWidget {
   final Note note;

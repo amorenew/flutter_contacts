@@ -24,7 +24,7 @@ TITLE;CHARSET=UTF-8:Software Engineer
 ROLE;CHARSET=UTF-8:Package maker
 ORG;CHARSET=UTF-8:FlutterContacts
 URL;CHARSET=UTF-8:www.example.com
-URL;type=WORK;CHARSET=UTF-8:https://pub.dev/packages/flutter_contacts
+URL;type=WORK;CHARSET=UTF-8:https://pub.dev/packages/flutter_contacts_plus
 NOTE;CHARSET=UTF-8:Some notes
 REV:2021-02-23T14:11:13.361Z
 END:VCARD

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/social_media.dart';
+import 'package:flutter_contacts_plus/properties/social_media.dart';
 
 class SocialMediaForm extends StatefulWidget {
   final SocialMedia socialMedia;

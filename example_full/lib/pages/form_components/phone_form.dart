@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_contacts/properties/phone.dart';
+import 'package:flutter_contacts_plus/properties/phone.dart';
 
 class PhoneForm extends StatefulWidget {
   final Phone phone;

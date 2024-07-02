@@ -11,7 +11,7 @@ class FlutterContactsExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'flutter_contacts_example',
+      title: 'flutter_contacts_plus_example',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
