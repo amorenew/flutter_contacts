@@ -98,10 +98,6 @@ class Note { String note; }
 class Group { String id; String name; }
 ```
 
-## Demo
-
-![demo](https://user-images.githubusercontent.com/1289004/101141809-ab165c00-35c9-11eb-90ff-b10318b13f16.gif)
-
 ## Installation
 
 1. Add the following key/value pair to your app's `Info.plist` (for iOS):
