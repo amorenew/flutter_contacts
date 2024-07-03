@@ -1,3 +1,7 @@
+## 1.3.0
+
+* Update Docs
+
 ## 1.2.0
 
 * Upgrade to Gradle 8 and make min Android SDK 23
